@@ -689,6 +689,10 @@ video {
   margin-bottom: 6rem;
 }
 
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -903,6 +907,12 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rounded-xl {
