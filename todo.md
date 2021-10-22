@@ -13,15 +13,23 @@
   [x] Privacy Policy
 
 ## Events
-- Speaker
-- Banner
-- Subject
-- Brief description
-- Date & time
-- Categories
-  - Life skills
-  - Technology
-  - Education
-  - Lifestyles
-- Button "Book Your Spot
+[x] Speaker
+[x] Banner
+[x] Subject
+[x] Brief description
+[x] Date & time
+[x] Categories
+  [x] Life skills
+  [x] Technology
+  [x] Education
+  [x] Lifestyles
+[x] Button "Book Your Spot
+
+## Mentors
+[] Name
+[] Company
+[] Profession
+[] Skills
+
+
 

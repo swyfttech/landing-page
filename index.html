@@ -54,25 +54,97 @@
     </div>
     <!-- Mentors -->
     <div class="mentors bg-white p-6 sm:py-8">
-      <div class="container mx-auto grid grid-cols-3 gap-2 py-8 place-items-center">
-        <div class="w-full border-b-2 border-dashed border-red-100 block h-[1px] mt-2"></div>
-        <div class="w-full flex items-center space-x-2">
-          <span class="border-2 border-red-200 flex justify-around items-center text-red-300 h-10 w-10 rounded-full"><svg class="w-8 h-8 font-bold" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></span>
-          <h1 class="text-2xl tracking-wide text-gray-600 font-bold">Connect With Top Mentors</h1>
-          <span class="border-2 border-red-200 flex justify-around items-center text-red-300 h-10 w-10 rounded-full"><svg class="w-8 h-8 font-bold" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></span>
+      <div class="container mx-auto grid sm:grid-cols-3 gap-2 py-8 place-items-center space-x-4">
+        <div class="sm:w-3/4 w-1/2 hidden border-b-2 border-dashed border-red-100 sm:block h-[1px] mt-2"></div>
+        <div class="sm:w-full flex-1 flex items-center space-x-4">
+          <span class="border-2 border-red-200 flex-shrink-0 flex justify-around items-center text-red-300 h-10 w-10 rounded-full"><svg class="w-8 h-8 font-bold" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></span>
+            <h1 class="sm:text-xl tracking-wide text-gray-600 font-bold">Connect With Top Mentors</h1>
+          <span class="border-2 border-red-200 flex-shrink-0 flex justify-around items-center text-red-300 h-10 w-10 rounded-full"><svg class="w-8 h-8 font-bold" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></span>
         </div>
-        <div class="w-full border-b-2 border-dashed border-red-100 block h-[1px] mt-2"></div>
+        <div class="sm:w-3/4 w-1/2 hidden border-b-2 border-dashed border-red-100 sm:block h-[1px] mt-2"></div>
       </div>
-      <div class="mentors-card container py-8 mx-auto grid sm:grid-cols-3 gap-8 overflow-hidden sm:max-w-6xl">
-        <div class="mentor-card bg-red-100 rounded-2xl overflow-hidden shadow">
-          <img class="object-cover h-full w-full" src="https://uifaces.co/our-content/donated/6MWH9Xi_.jpg" alt="">
-        </div>
-        <div class="mentor-card bg-red-100 rounded-2xl overflow-hidden shadow">
-          <img class="object-cover h-full w-full" src="https://randomuser.me/api/portraits/women/79.jpg" alt="">
-        </div>
-        <div class="mentor-card bg-red-100 rounded-2xl overflow-hidden shadow">
+      <div class="mentors-card container py-8 mx-auto grid sm:grid-cols-3 gap-8 sm:max-w-6xl">
+        <div class="mentor-card relative rounded-3xl overflow-hidden shadow">
           <img class="object-cover h-full w-full" src="https://uifaces.co/our-content/donated/ukegoVAy.jpg" alt="">
+          <div class="absolute bottom-2 left-0 right-0 p-3 text-white space-y-2">
+            <!-- Name & Company -->
+              <div class="org -space-y-1">
+                <p class="name font-semibold tracking-wide">
+                  Zubeir Athman
+                </p>
+                <p class="campany text-sm tracking-wide text-gray-200">
+                  Swyft.
+                </p>
+              </div>
+            <!-- Position -->
+            <div class="job flex items-center space-x-2">
+              <span><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></span>
+              <span>&middot;</span>
+              <p>Founder & CEO</p>
+            </div>
+            <!-- Topics -->
+            <div class="topics grid sm:grid-cols-2 gap-2 sm:gap-4">
+              <span class="text-center bg-black px-4 py-2 rounded-full truncate">Architecture</span>
+              <span class="more  bg-gray-700 px-4 py-2 text-center rounded-full">
+                + 2 more topics
+              </span>
+            </div>
+          </div>
         </div>
+        <div class="mentor-card relative rounded-3xl overflow-hidden shadow">
+          <img class="object-cover h-full w-full" src="https://uifaces.co/our-content/donated/6MWH9Xi_.jpg" alt="">
+          <div class="absolute bottom-2 left-0 right-0 p-3 text-white space-y-2">
+            <!-- Name & Company -->
+              <div class="org -space-y-1">
+                <p class="name font-semibold tracking-wide">
+                  Suleiman Nassor
+                </p>
+                <p class="campany text-sm tracking-wide text-gray-200">
+                  AshmifGroup.
+                </p>
+              </div>
+            <!-- Position -->
+            <div class="job flex items-center space-x-2">
+              <span><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></span>
+              <span>&middot;</span>
+              <p>Co-founder & CTO</p>
+            </div>
+            <!-- Topics -->
+            <div class="topics grid sm:grid-cols-2 gap-2 sm:gap-4">
+              <span class="text-center bg-black px-4 py-2 rounded-full truncate">Telecommunications</span>
+              <span class="more  bg-gray-700 px-4 py-2 text-center rounded-full">
+                + 2 more topics
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="mentor-card relative rounded-3xl overflow-hidden shadow">
+          <img class="object-cover h-full w-full" src="https://uifaces.co/our-content/donated/gPZwCbdS.jpg" alt="">
+          <div class="absolute bottom-2 left-0 right-0 p-3 text-white space-y-2">
+            <!-- Name & Company -->
+              <div class="org -space-y-1">
+                <p class="name font-semibold tracking-wide">
+                  Kiti Mogulh
+                </p>
+                <p class="campany text-sm tracking-wide text-gray-200">
+                  Swyft Inc.
+                </p>
+              </div>
+            <!-- Position -->
+            <div class="job flex items-center space-x-2">
+              <span><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></span>
+              <span>&middot;</span>
+              <p>Lead Developer</p>
+            </div>
+            <!-- Topics -->
+            <div class="topics grid sm:grid-cols-2 gap-2 sm:gap-4">
+              <span class="text-center bg-black px-4 py-2 rounded-full truncate">Technology</span>
+              <span class="more  bg-gray-700 px-4 py-2 text-center rounded-full">
+                + 3 more topics
+              </span>
+            </div>
+          </div>
+        </div>        
       </div>
     </div>
     <!-- Events -->
@@ -158,7 +230,7 @@
                     </li>
                     <li>
                       <div class="w-12 h-12 rounded-full border-4 shadow-md border-white">
-                        <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/17.jpg" alt="">
+                        <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/men/97.jpg" alt="">
                       </div>
                     </li>
                   </ul>
@@ -216,11 +288,9 @@
     </div>
     <!-- Testimonials -->
     <div class="testimonials h-96 p-6 sm:py-8">
-      <h1>Testimonials</h1>
+      <h1>Our Partners</h1>
       <div class="parent grid sm:grid-cols-4">
-        <div class="card bg-white mb-24 sm:mb-0">
-          hello
-        </div>
+
       </div>
     </div>
     <!-- Footer -->
@@ -228,7 +298,7 @@
       <footer class="h-full sm:max-w-7xl mx-auto px-8 sm:p-8 space-y-8 sm:space-y-12">
         <div class="get-notified flex justify-center">
           <div class="flex flex-col items-center sm:w-1/2 space-y-4">
-            <p class="text-lg text-gray-600 font-semibold tracking-wide">Get updates directly to your inbox</p>
+            <p class="text-lg text-gray-600 font-semibold tracking-wide">Get mentorships & events updates directly to your inbox</p>
             <div class="w-full flex -space-x-6">
               <input type="text" placeholder="Your email" class="w-8/12 text-gray-600 sm:w-9/12 border-none ring-0 focus:border-none ring-0 focus:outline-none focus:ring-none bg-gray-100 px-8 py-1 sm:py-3 rounded-3xl shadow-sm">
               <button class="flex-1 bg-swyft-primary px-6 py-3 rounded-3xl shadow-md text-white text-sm sm:text-lg sm:tracking-wide font-semibold">Get Notified</button>
