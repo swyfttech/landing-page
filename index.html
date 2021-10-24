@@ -11,7 +11,7 @@
 <body class="bg-blue-50">
   <div class="sm:max-w-10/12 sm:mx-auto">
     <!-- Menu & Hero -->
-    <div class="h-screen">
+    <div class="h-screen mb-8">
         <div class="menu sm:max-w-6xl mx-auto py-4 border-b-2 border-white border-dashed">
           <nav class="flex justify-between items-center py-2">
             <div class="">
@@ -44,20 +44,30 @@
           </nav>
         </div>
         <div class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-between sm:space-x-8 sm:max-w-6xl sm:mx-auto pt-12 sm:py-24">
-          <div class="left sm:w-1/2 mx-4 sm:mx-0 sm:space-y-8 space-y-2">
+          <div class="left sm:w-1/2 mx-4 sm:mx-0 sm:space-y-4 space-y-2">
             <!-- Left punchline -->
-            <h1 class="sm:text-5xl text-gray-700 tracking-wide font-semibold">Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1 class="sm:text-5xl text-gray-800 tracking-wide font-bold">Lorem ipsum dolor sit amet consectetur.</h1>
             <div>
               <p class="text-gray-700 text-lg tracking-wide leading-8  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quis laudantium officiis quisquam! Aperiam, recusandae.</p>
             </div>
+            <button class="border-2 border-white bg-gradient-to-r from-red-600 w-full sm:w-2/3 to-swyft-primary px-6 py-2 sm:py-4 rounded-2xl font-semibold tracking-wide text-lg sm:text-xl text-white shadow-md">
+              Start your swyft journey
+            </button>
           </div>
-          <div class="video mt-4 sm:mt-0 rounded-3xl w-11/12 sm:w-full h-[35vh] sm:h-[60vh] sm:flex-1 bg-white border-2 sm:border-4 border-white shadow-md sm:shadow-xl sm:transform sm:rotate-6 rounded-3xl">
-            <iframe class="w-full h-full rounded-3xl" src="https://www.youtube.com/embed/MwixREUJOI0"></iframe>
+          <div class="w-11/12 sm:w-full h-[35vh] sm:h-[65vh] flex sm:flex-col flex-col-reverse flex-1">
+            <div class="learn-more  sm:mb-6">
+              <h1 class="flex sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
+                Watch to <span class="block mx-2 sm:mx-4 italic text-black underline transform -rotate-6">learn</span> more!
+              </h1>
+            </div>
+            <div class="video my-4 rounded-3xl w-full h-[35vh] sm:h-[60vh] sm:flex-1 bg-white border-2 sm:border-4 border-white shadow-md sm:shadow-xl sm:transform sm:rotate-6 rounded-3xl">
+              <iframe class="w-full h-full rounded-3xl" src="https://www.youtube.com/embed/MwixREUJOI0"></iframe>
+            </div>
           </div>
         </div>
     </div>
     <!-- Mentors -->
-    <div class="mentors bg-white p-6 sm:py-8 pt-24 sm:mt-0">
+    <div class="mentors bg-white p-6 sm:py-8 pt-4 sm:mt-0">
       <div class="container mx-auto grid sm:grid-cols-3 gap-2 py-8 place-items-center space-x-4">
         <div class="sm:w-3/4 w-1/2 hidden border-b-2 border-dashed border-red-100 sm:block h-[1px] mt-2"></div>
         <div class="sm:w-full flex-1 flex items-center space-x-4">
