@@ -823,6 +823,10 @@ video {
   height: 40vh;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -869,6 +873,10 @@ video {
 
 .w-1\/12 {
   width: 8.333333%;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .max-w-full {
@@ -1511,6 +1519,10 @@ video {
 
   .sm\:h-screen {
     height: 100vh;
+  }
+
+  .sm\:h-48 {
+    height: 12rem;
   }
 
   .sm\:w-1\/2 {
