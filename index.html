@@ -7,17 +7,18 @@
   <title>Swyft</title>
   <link rel="stylesheet" href="assets/css/tailwind.css">
   <script src="https://kit.fontawesome.com/ec6e0bb911.js" crossorigin="anonymous"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-blue-50 mx-auto">
   <div class="w-full sm:max-w-10/12 sm:mx-auto">
     <!-- Menu & Hero -->
-    <div class="h-screen mb-8">
-        <div class="menu max-w-full sm:max-w-6xl mx-auto py-1 border-b-2 border-white border-dashed">
+    <div class="sm:h-screen mb-8">
+        <div class="menu max-w-full sm:max-w-6xl mx-auto py-1">
           <nav class="hidden sm:flex justify-between items-center py-2">
             <div class="">
               <ul>
                 <li class="text-center text-gray-600 font-bold">
-                  <a href="/">
+                  <a href="">
                     <img class="w-16 h-12" src="./assets/images/logo.png" alt="">
                     <p>Swyft</p>
                   </a>
@@ -43,11 +44,38 @@
               </ul>
             </div>
           </nav>
+          <nav class="block space-y-6 sm:hidden mx-4 pt-1">
+            <div class="flex justify-between items-center">
+                <a href="">
+                  <img class="w-12 h-8" src="./assets/images/logo.png" alt="">
+                  <p class="text-sm text-center text-gray-600 font-bold">Swyft</p>
+                </a>
+                <button>
+                  <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+            <ul class="mx-1 space-y-4 border-b-2 border-white border-dashed pb-4">
+              <li>
+                <a href="" class="tracking-wide text-gray-800">Offer Mentorship</a>
+              </li>
+              <li>
+                <a href="" class="tracking-wide text-gray-800">Seek Mentorship</a>
+              </li>
+            </ul>
+            <ul class="mx-1 flex flex-col space-y-4">
+              <li class="flex text-center">
+                <a href="" class="w-full bg-red-300 shadow-xs px-8 py-4 rounded-xl tracking-wide text-white font-semibold  sm:text-xl">Create Account</a>
+              </li>
+              <li class="flex text-center">
+                <a href="" class=" w-full border-2 border-red-300 px-10 py-3 rounded-xl tracking-wide text-gray-500 font-semibold  sm:text-xl">Login</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-between sm:space-x-8 max-w-full sm:max-w-6xl sm:mx-auto pt-12 sm:py-24">
-          <div class="left sm:w-1/2 mx-4 sm:mx-0 sm:space-y-8 space-y-2">
+          <div class="left sm:w-1/2 mx-6 sm:mx-0 sm:space-y-8 space-y-2">
             <!-- Left punchline -->
-            <div class="sm:text-5xl text-xl text-gray-800 tracking-wide font-bold space-y-2">Career <span class="text-swyft-primary">mentorship <span class="text-gray-800">&</span></span> <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">apprenticeship</span></div>
+            <div class="sm:text-5xl text-lg text-gray-800 tracking-wide font-bold space-y-2">Career <span class="text-swyft-primary">mentorship <span class="text-gray-800">&</span></span> <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">apprenticeship</span></div>
             <div class="">
               <div class="main sm:flex sm:space-x-8 space-y-2 sm:space-y-0">
                 <div class="student space-y-1">
@@ -56,15 +84,15 @@
                 </div>
                 <div class="mentor space-y-1">
                   <h1 class="text-gray-800 text-lg font-semibold tracking-wide">Student ?</h1>
-                  <p class="text-gray-600 sm:text-lg tracking-wide">Get sustained relationships with <span class="italic">professionals</span> from around the globe</p>
+                  <p class="text-gray-600 sm:text-lg tracking-wide text">Get sustained relationships with <span class="italic">professionals</span> from around the globe</p>
                 </div>
               </div>
             </div>
-            <button class="border-2 sm:border-4 border-white bg-gradient-to-r from-red-600 w-full sm:w-2/3 to-swyft-primary px-6 py-2 sm:py-4 rounded-2xl font-semibold tracking-wide text-lg sm:text-xl text-white shadow-md">
+            <button class="border-2 sm:border-4 border-white bg-gradient-to-r from-red-600 w-full sm:w-2/3 to-swyft-primary px-6 py-2 sm:py-4 rounded-2xl font-semibold tracking-wide sm:text-xl text-white shadow-md">
               Start your swyft journey
             </button>
           </div>
-          <div class="w-11/12 sm:w-full h-[35vh] sm:h-[65vh] flex sm:flex-col flex-col-reverse flex-1">
+          <div class="w-10/12 sm:w-full h-[35vh] sm:h-[65vh] flex sm:flex-col flex-col-reverse flex-1 mt-4 sm:mt-0">
             <div class="learn-more sm:flex sm:justify-between sm:mb-6">
               <div class="hidden sm:block"></div>
               <h1 class="flex sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
@@ -173,7 +201,7 @@
       </div>
     </div>
     <!-- Events -->
-    <div class="mentors bg-event-color py-6 pl-4 sm:py-8">
+    <div class="mentors bg-event-color py-6 px-4 sm:py-8">
       <div class="sm:max-w-6xl mx-auto">
         <div class="flex justify-between items-center mb-28">
           <h1 class="text-xl tracking-wide font-semibold text-gray-800">Upcoming events</h1>
@@ -181,8 +209,8 @@
             <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
           </span>
         </div>
-        <div class="parent grid sm:grid-cols-3 gap-4 sm:gap-8">
-          <div class="w-10/12 sm:w-full mb-24 sm:mb-0 p-8 rounded-3xl shadow">
+        <div class="parent sm:grid sm:grid-cols-3 gap-4 sm:gap-8">
+          <div class="mx-auto sm:w-full mb-24 sm:mb-0 p-8 rounded-3xl shadow">
             <!-- Image  -->
             <div class="-mt-28 mb-6">
               <img class="rounded-2xl" src="https://images.unsplash.com/photo-1556125574-d7f27ec36a06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" alt="">
@@ -219,7 +247,7 @@
               </div>
             </div>
           </div>
-          <div class="w-10/12 sm:w-full mb-24 sm:mb-0 p-8 rounded-3xl shadow">
+          <div class="sm:w-full mb-24 sm:mb-0 p-8 rounded-3xl shadow">
             <!-- Image  -->
             <div class="-mt-28 mb-6">
               <img class="rounded-2xl" src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" alt="">
@@ -256,7 +284,7 @@
               </div>
             </div>
           </div>
-          <div class="w-10/12 sm:w-full mb-24 sm:mb-0 p-8 rounded-3xl shadow">
+          <div class="sm:w-full mb-24 sm:mb-0 p-8 rounded-3xl shadow">
             <!-- Image  -->
             <div class="-mt-28 mb-6">
               <img class="rounded-2xl" src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" alt="">
