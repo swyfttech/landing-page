@@ -652,12 +652,23 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .bottom-2 {
@@ -670,6 +681,10 @@ video {
 
 .right-0 {
   right: 0px;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
