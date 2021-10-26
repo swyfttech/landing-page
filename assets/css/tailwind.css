@@ -1539,6 +1539,10 @@ video {
     margin-bottom: 0px;
   }
 
+  .sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .sm\:block {
     display: block;
   }
