@@ -811,6 +811,18 @@ video {
   height: 2px;
 }
 
+.h-\[45\] {
+  height: 45;
+}
+
+.h-\[40vh\] {
+  height: 40vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1557,6 +1569,10 @@ video {
 
   .sm\:h-\[93vh\] {
     height: 93vh;
+  }
+
+  .sm\:h-full {
+    height: 100%;
   }
 
   .sm\:w-1\/2 {
