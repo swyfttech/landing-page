@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swyft | Login</title>
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+    <style>
+      [x-cloak] { display: none !important; }
+    </style>
+    <script src="https://kit.fontawesome.com/ec6e0bb911.js" crossorigin="anonymous"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+  <body class="bg-blue-50 flex justify-center items-center h-screen">
+    <div class="login-container overflow-hidden flex flex-col flex-col-reverse sm:flex-row sm:justify-between w-full max-w-full h-[100vh] sm:h-[93vh] sm:max-w-7xl sm:mx-auto bg-white sm:rounded-2xl sm:shadow-sm">
+      <div class="left py-2 sm:py-0 space-y-4 flex flex-col items-center justify-center flex-1 w-full sm:w-1/2">
+        <!-- Socials -->
+        <div class="space-y-2 sm:space-y-4">
+          <h1 class="text-2xl sm:text-4xl font-semibold tracking-wide text-gray-600">Welcome back</h1>
+          <p class="text-gray-600 tracking-wide">Continue your swyft journey using</p>
+        </div>
+        <div class="socials text-gray-600 tracking-wide w-5/6 mx-auto sm:w-2/3">
+          <div class="w-full flex space-x-2 justify-center items-center">
+            <button class="flex  text-center w-10 h-10 border-4 border-gray-100 rounded-full bg-red-400 font-semibold text-white items-center justify-center py-2 items-center space-x-3">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button class="flex  text-center w-10 h-10 border-4 border-gray-100 rounded-full bg-red-400 font-semibold text-white items-center justify-center py-2 items-center space-x-3">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button class="flex  text-center w-10 h-10 border-4 border-gray-100 rounded-full bg-red-400 font-semibold text-white items-center justify-center py-2 items-center space-x-3">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center space-x-3">
+          <span class="flex h-[1px] w-[80px] sm:w-[106px] bg-gray-100"></span>
+          <p class="text-gray-600 tracking-wide text-sm sm:text-base">Or login using your email</p>
+          <span class="flex h-[1px] w-[80px] sm:w-[106px] bg-gray-100"></span>
+        </div>
+        <!-- Form -->
+        <div class="bg-white w-5/6 sm:w-2/3">
+          <form action="" class="flex flex-col space-y-3">
+           <div class="flex flex-col space-y-1">
+             <label class="text-sm text-gray-500" for="email">Email</label>
+            <input class="bg-gray-50 focus:border-swyft-primary border rounded-2xl text-gray-600 outline-none focus:outline-none px-4 py-2" type="text" placeholder="Your email address">
+           </div>
+           <div class="flex flex-col space-y-1">
+            <label class="text-sm text-gray-500" for="password">Password</label>
+            <input class="bg-gray-50 focus:border-swyft-primary border rounded-2xl text-gray-600 outline-none focus:outline-none px-4 py-2" type="text" placeholder="Your password">
+           </div>
+           <button class="bg-gradient-to-r from-red-500 to-swyft-primary py-3 rounded-2xl text-white text-lg sm:text-xl tracking-wide font-semibold">Continue</button>
+          </form>
+        </div>
+        <!-- Footer -->
+        <footer class="w-5/6 sm:w-2/3 flex items-center justify-center text-sm">
+          <div class="copy  text-center flex items-center space-x-2 text-gray-600 tracking-wide sm:text-lg">
+            <p>&copy; 2021 <span>Swyft</span></p>
+            <span>&middot;</span>
+            <p>All rights reserved</p>
+          </div>
+        </footer>
+      </div>
+      <div class="right flex-1 sm:w-1/2 h-full bg-indigo-500">
+        <img class="object-cover h-full" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" alt="">
+      </div>
+    </div>
+  </body>
+</html>
