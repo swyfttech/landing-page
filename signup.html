@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swyft | Signup</title>
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+    <style>
+      [x-cloak] { display: none !important; }
+    </style>
+    <script src="https://kit.fontawesome.com/ec6e0bb911.js" crossorigin="anonymous"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+  <body class="bg-blue-50 flex justify-center items-center min-h-screen">
+    <div class="login-container overflow-hidden flex flex-col sm:flex-row sm:justify-between w-full max-w-full h-[100vh] sm:h-[93vh] sm:max-w-6xl sm:mx-auto bg-white sm:rounded-2xl sm:shadow-sm">
+      <div class="right relative sm:flex-1 sm:w-1/2 h-[300px] sm:h-full bg-indigo-500">
+        <div class="absolute top-0 left-0 p-2 sm:p-4">
+            <a href="index.html" class="flex flex-col justify-center items-center">
+              <img class="w-16 h-12" src="./assets/images/logo.png" alt="">
+            </a>
+        </div>
+        <img class="object-cover h-full" src="https://images.unsplash.com/photo-1595853035070-59a39fe84de3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1325&q=80" alt="">
+      </div>
+      <div class="sm:relative  -mt-12 sm:-mt-0 z-40 left py-2 sm:py-0 space-y-2 sm:space-y-8 flex flex-col items-center justify-center flex-1 w-full sm:w-1/2">
+        <!-- Socials -->
+        <div class="sm:space-y-4 text-center">
+          <div class="space-y-2 sm:space-y-4">
+            <div class="flex items-center space-x-4 justify-center">
+              <h1 class="text-2xl sm:text-4xl font-semibold tracking-wide text-white sm:text-gray-600">Create Account</h1>
+              <span class="flex items-center animate-spin ">
+                <svg class="w-8 h-8 text-white sm:text-swyft-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              </span>
+            </div>
+            <p class="text-gray-700 tracking-wide">You can easily signup using</p>
+          </div>
+          <div class="socials text-gray-600 tracking-wide w-5/6 mx-auto sm:w-2/3">
+            <div class="w-full flex space-x-4 justify-center items-center">
+              <button class="flex  text-center w-10 h-10 border-4 border-gray-100 rounded-full bg-red-400 font-semibold text-white items-center justify-center py-2 items-center space-x-3">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button class="flex  text-center w-10 h-10 border-4 border-gray-100 rounded-full bg-red-400 font-semibold text-white items-center justify-center py-2 items-center space-x-3">
+                <i class="fab fa-twitter"></i>
+              </button>
+              <button class="flex  text-center w-10 h-10 border-4 border-gray-100 rounded-full bg-red-400 font-semibold text-white items-center justify-center py-2 items-center space-x-3">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="flex items-center space-x-3">
+            <span class="flex h-[1px] w-[80px] sm:w-[106px] bg-gray-100"></span>
+            <p class="text-gray-600 tracking-wide text-sm sm:text-base">Or use your email instead</p>
+            <span class="flex h-[1px] w-[80px] sm:w-[106px] bg-gray-100"></span>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="bg-white w-5/6 sm:w-2/3">
+          <form action="" class="flex flex-col space-y-2 sm:space-y-3">
+           <div class="flex flex-col space-y-1">
+             <label class="text-sm text-gray-500" for="email">Email</label>
+            <input class="bg-gray-50 focus:border-swyft-primary border rounded-2xl text-gray-600 outline-none focus:outline-none px-4 py-1 sm:py-2" type="text" placeholder="Your email address">
+           </div>
+           <div class="flex flex-col space-y-1">
+            <label class="text-sm text-gray-500" for="password">Password</label>
+            <input class="bg-gray-50 focus:border-swyft-primary border rounded-2xl text-gray-600 outline-none focus:outline-none px-4 py-1 sm:py-2" type="text" placeholder="Your password">
+           </div>
+           <div class="flex flex-col space-y-1 mb-2">
+            <label class="text-sm text-gray-500" for="password">Confirm Password</label>
+            <input class="bg-gray-50 focus:border-swyft-primary border rounded-2xl text-gray-600 outline-none focus:outline-none px-4 py-1 sm:py-2" type="text" placeholder="Confirm password">
+           </div>
+           <button class="bg-gradient-to-r from-red-500 to-swyft-primary py-1 sm:py-3 rounded-2xl text-white text-lg sm:text-xl tracking-wide font-semibold">Register</button>
+          </form>
+        </div>
+        <!-- Footer -->
+        <footer class="w-5/6 sm:w-2/3 flex items-center justify-center text-sm">
+          <div class="copy  text-center flex items-center space-x-2 text-gray-600 tracking-wide sm:text-lg">
+            <p>&copy; 2021 <span>Swyft</span></p>
+            <span>&middot;</span>
+            <p>All rights reserved</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
