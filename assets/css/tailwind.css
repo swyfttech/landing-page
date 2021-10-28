@@ -838,6 +838,22 @@ video {
   height: 300px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[90\%\] {
+  height: 90%;
+}
+
+.h-\[905\] {
+  height: 905;
+}
+
+.h-\[90\] {
+  height: 90;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
